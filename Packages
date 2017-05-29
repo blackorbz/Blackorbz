@@ -8,6 +8,6 @@ MD5sum: 35846aa826746f12e852637bb1a1480a
 SHA1: bc871dae067d87c4f5ccf1979f184b2387830cb2
 SHA256: 07f3bee5c69dd265d19b47858969d2bb67f72844efdf292c2a2ce0b5c25ad750
 Section: Tweaks
-Description: Geocaching premium by begiannis
+Description: Geocaching premium requires the Geocaching app
 Author: bengiannis <>
 Name: geocachingpremium
