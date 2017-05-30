@@ -2349,7 +2349,7 @@
 		}
 
 		.icon.style2 {
-			color: #c79cc8;
+			color: #ef2f2f;
 		}
 
 		.icon.style3 {
@@ -3562,10 +3562,10 @@
 
 		#main header.major h2:after {
 			background-color: #dddddd;
-			background-image: -moz-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: -webkit-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: -ms-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+			background-image: -moz-linear-gradient(90deg, #f4d4ab, #edd28e, #f98475);
+			background-image: -webkit-linear-gradient(90deg, #f4d4ab, #edd28e, #f98475);
+			background-image: -ms-linear-gradient(90deg, #f4d4ab, #edd28e, #f98475);
+			background-image: linear-gradient(90deg, #f4d4ab, #edd28e, #f98475);
 		}
 
 		#main table tbody tr {
