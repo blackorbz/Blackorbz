@@ -1,13 +1,13 @@
-Package: com.bengiannis.geocachingpremium
+Package: com.bengiannis.GeocachingPremium
 Version: 0.0.1
 Architecture: iphoneos-arm
 Maintainer: Blackorbz <>
-Filename: /geocachingpremium.deb
+Filename: /GeocachingPremium.deb
 Size: 3182
 MD5sum: 35846aa826746f12e852637bb1a1480a
 SHA1: bc871dae067d87c4f5ccf1979f184b2387830cb2
 SHA256: 07f3bee5c69dd265d19b47858969d2bb67f72844efdf292c2a2ce0b5c25ad750
 Section: Tweaks
-Description: Geocaching premium requires the Geocaching app
+Description: GeocachingPremium requires the Geocaching app
 Author: bengiannis <>
-Name: geocachingpremium
+Name: Geocachingpremium
