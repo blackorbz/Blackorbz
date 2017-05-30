@@ -1,99 +1,51 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Blackorbz Cydia Repo</title>
+		<title>Blackorbz Repo</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<!--[if lte IE 8]><script src="assets/js/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
-	<body>
+	<body class="is-loading">
 
 		<!-- Wrapper -->
 			<div id="wrapper">
 
-				<!-- Header -->
-					<header id="header" class="alt">
-						<span class="logo"><img src="images/logo.svg" alt="" /></span>
-						<h1>Blackorbz's Cydia Repo</h1>
-					</header>
-
 				<!-- Main -->
-					<div id="main">
-
-						<!-- Introduction -->
-							<section id="intro" class="main">
-								<div class="spotlight">
-									<div class="content">
-										<header class="major">
-<h2>Blackorbz</h2>
-										</header>
-										<p>Tweaks, Themes and Apps</p>
-										<ul class="actions">
-											<li><a href="cydia://url/https://cydia.saurik.com/api/share#?source=https%3A%2F%2blackorbz.github.io" class="button">Add Repo</a></li>
-										</ul>
-									</div>
-									<span class="image"><img src="images/pic01.jpg" alt="" /></span>
-								</div>
-							</section>
-
-						<!-- First Section -->
-							<section id="first" class="main special">
-								<header class="major">
-									<h1>Information</h1>
-								</header>
-								<ul class="features">
-									<li>
-										<span class="icon major style3 fa-code"></span>
-										<h3>-<b>Tweaks</b>-</h3>
-										<p>GeocachingPremium</p>
-									</li>
-									<li>
-										<span class="icon major style3 fa-paint-brush"></span>
-										<h3>-<b>Themes</b>-</h3>
-				                        <p><s>Not available</s></p>
-									</li>
-									<li>
-										<span class="icon major style3 fa-gamepad"></span>
-										<h3>-<b>Apps</b>-</h3>
-										<p><s>Not available</s></p>
-									</li>
-								</ul>
-								<footer class="major">
-								
-							</section>
-
-					</div>
+					<section id="main">
+						<header>
+							<span class="avatar"><img src="images/pic01.jpg" alt="" /></span>
+							<h1>Blackorbz</h1>
+							<p>A Cydia Repo</p>
+						</header>
+						<footer>
+							<ul class="icons">
+								<li><a href="cydia://url/https://cydia.saurik.com/api/share#?source=http://blackorbz.github.io" class="fa-plus">Add Repo</a></li>
+							</ul>
+						</footer>
+					</section>
 
 				<!-- Footer -->
 					<footer id="footer">
-						<section>
-							<ul class="icons">
-								<li><a href="http://www.twitter.com/jurre_tweet" class="icon fa-twitter alt"><span class="label">Twitter</span></a></li>
-	
-							
-						     <li><a href="http://www.github.com/blackorbz" class="icon fa-github alt"><span class="label">GitHub</span></a></li>
-							</ul>
-						</section>
-
-<div><h2><b>Notice</b></h2>
-<p>Thanks to Antique Dev for his cms and html<a href="http://www.reddit.com/user/blackorbz"><b> 
-
-<hr>
+						<ul class="copyright">
+							<li>Blackorbz</li>
+						</ul>
 					</footer>
 
 			</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->
+			<script>
+				if ('addEventListener' in window) {
+					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
+					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+				}
+			</script>
 
 	</body>
 </html>
